@@ -4,14 +4,14 @@ const CardRanckStyled = styled.div`
     background-color: rgba(158, 171, 201, 0.3);
     border: 2px solid #f1f1f1;
     height: 15vh;
-    border-radius: 25px;
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
     overflow: hidden;
     justify-content: space-between;
     margin: 10px;
-    padding: 10px;
+    padding: 10px 0;
     .position{
         /* background-color: coral; */
         width: 20%;

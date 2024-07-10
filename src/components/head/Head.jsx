@@ -10,7 +10,7 @@ export default function Head(){
                 
                 <div className="title">
                     <h1>JIMP</h1>
-                    <p>Jogos Interno IFP</p>
+                    <p>Jogos Internos IFP</p>
                 </div>
             </div>
             <img className="adm" src="config.png" alt="" />
