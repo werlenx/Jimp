@@ -13,16 +13,20 @@ const CheckItemStyled = styled.div`
     box-sizing: border-box;
 
     .in{
-        width: 100px;
-        height: 50px;
+        margin: 10px;
+        padding: 10px;
+        width: 50px;
+        height: 30px;
     }
     h3{
         padding: 0;
         margin: 0;
+        color: #e0e40c;
     }
     p{
         padding: 0;
         margin: 0;
+        color: #d4d4d4;
     }
 `
 export {CheckItemStyled}

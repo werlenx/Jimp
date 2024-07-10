@@ -1,21 +1,26 @@
 import styled from "styled-components";
 
 const CardRanckStyled = styled.div`
-    background-color: rgba(17, 28, 54, 0.3);
+    background-color: rgba(158, 171, 201, 0.3);
     border: 2px solid #f1f1f1;
-    height: 20vh;
+    height: 15vh;
     border-radius: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
     overflow: hidden;
     justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
     .position{
+        /* background-color: coral; */
         width: 20%;
-        font-size: 4rem;
+        height: 100%;
+        font-size: 2.5rem;
         font-weight: 900;
         display: flex;
         justify-content: center;
+        align-items: center;
         p{
             margin: 0;
             color: white;
@@ -23,22 +28,29 @@ const CardRanckStyled = styled.div`
 
     }
     .logo{
-        width: 25%;
+        /* background-color: royalblue; */
+        width: 30%;
+        height: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
         img{
-            width: 100%;
-            height: 100%;
+            background-color:aquamarine;
+            height: 60%;
             object-fit: cover;
             border-radius: 50%;
         }
     }
     
     .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 50%;
+        height: 100%;
         padding-left: 20px;
         h2{ 
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             margin: 0;
             color: white;
         }
@@ -48,7 +60,7 @@ const CardRanckStyled = styled.div`
         }
         .pontos{
             
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: bold;
             margin: 0;
             color: yellow;

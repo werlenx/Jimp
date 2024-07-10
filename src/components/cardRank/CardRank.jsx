@@ -1,18 +1,18 @@
 import { CardRanckStyled } from "./CardRankStyled";
 
-export default function () {
+export default function (props) {
   return (
     <CardRanckStyled>
       <div className="position">
-        <p>1</p>
+        <p>{props.position}</p>
       </div>
       <div className="logo">
-        <img src="./logos/logo-os-corujoes.jpeg" alt="" />
+        <img src={props.icoPath} alt="" />
       </div>
       <div className="info">
-        <h2>Os Corujões</h2>
-        <p>23ADM12</p>
-        <p className="pontos">150 pts</p>
+        <h2>{props.name}</h2>
+        <p>{props.class}</p>
+        <p className="pontos">{props.point}</p>
       </div>
     </CardRanckStyled>
   );
