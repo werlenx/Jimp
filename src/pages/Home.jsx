@@ -1,5 +1,7 @@
 import React from "react";
 import { HomeStyled } from "./HomeStyled";
+import { Link } from "react-router-dom"
+import Button from "../components/Button";
 
 export default function Home() {
   return (
@@ -10,8 +12,9 @@ export default function Home() {
         <p>3º Edição 2024</p>
         <div>
           <div className="botoes">
-            <button>Ranking dos campeões</button>
-            <button>Agenda do Evento</button>
+            <Link to="/rank"><button>Ranking dos campeões</button></Link>
+            <Link to="/agenda"><button>Agenda do Evento</button></Link>
+            
           </div>
 
           <div className="evento">

@@ -7,8 +7,18 @@ const RankStyled = styled.div`
     height: 90vh;
     display: flex;
     flex-direction: column;
-    padding: 40px 20px;
+    padding: 0px 20px;
     box-sizing: border-box;
+    .rank{
+        padding: 0;
+        margin: 0;
+        color: white;
+        font-weight: 500;
+        margin-bottom: 20px;
+        background-color: none;
+        text-align: center;
+        font-size: 3rem;
+    }
 `
 
 export {RankStyled}

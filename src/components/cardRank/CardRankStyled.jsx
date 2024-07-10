@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const CardRanckStyled = styled.div`
-    background-color: rgba(230, 229, 233, 0.5);
+    background-color: rgba(17, 28, 54, 0.3);
     border: 2px solid #f1f1f1;
-    height: 15vh;
+    height: 20vh;
     border-radius: 25px;
     display: flex;
     flex-direction: row;
@@ -11,16 +11,18 @@ const CardRanckStyled = styled.div`
     overflow: hidden;
     justify-content: space-between;
     .position{
-        /* background-color: blueviolet;, */
         width: 20%;
         font-size: 4rem;
         font-weight: 900;
         display: flex;
         justify-content: center;
+        p{
+            margin: 0;
+            color: white;
+        }
 
     }
     .logo{
-        /* background-color: aquamarine; */
         width: 25%;
         display: flex;
         justify-content: center;
@@ -34,9 +36,9 @@ const CardRanckStyled = styled.div`
     
     .info{
         width: 50%;
-        /* background-color: gray; */
         padding-left: 20px;
-        h2{
+        h2{ 
+            font-size: 1.5rem;
             margin: 0;
             color: white;
         }

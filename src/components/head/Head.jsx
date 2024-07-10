@@ -1,12 +1,13 @@
 import { HeadStyled } from "./HeadStyled";
-
+import { Link } from "react-router-dom";
 
 
 export default function Head(){
     return(
         <HeadStyled>
             <div className="container">
-                <img className="logo" src="logo-ifp.png" alt="" />
+                <Link to="/"><img className="logo" src="logo-ifp.png" alt="" /></Link>
+                
                 <div className="title">
                     <h1>JIMP</h1>
                     <p>Jogos Interno IFP</p>
