@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const CardRanckStyled = styled.div`
-    background-color: rgba(158, 171, 201, 0.3);
+    background-color: rgba(1, 5, 15, 0.3);
     border: 2px solid #f1f1f1;
     height: 15vh;
     border-radius: 15px;
