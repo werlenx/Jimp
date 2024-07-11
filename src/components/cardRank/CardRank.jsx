@@ -7,7 +7,7 @@ export default function (props) {
         <p>{props.position}</p>
       </div>
       <div className="logo">
-        <img src={props.icoPath} alt="" />
+        <img src={props.pathImg} alt="" />
       </div>
       <div className="info">
         <h2>{props.name}</h2>
