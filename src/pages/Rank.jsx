@@ -13,17 +13,17 @@ const teams = [
   },
   {
     id: "2",
-    name: "espartanos",
-    pathImg: "./logos/logo-os-corujoes.jpeg",
+    name: "Espartan",
+    pathImg: "./logos/23adm09_spartan.jpeg",
     points: 3,
     class: "23ADM13",
   },
   {
     id: "3",
-    name: "Curujões",
-    pathImg: "c",
+    name: "Os Curujões",
+    pathImg: "./logos/23adm07_os_corujoes.jpeg",
     points: "2",
-    class: "23ADM13",
+    class: "23ADM07",
   },
 ];
 
