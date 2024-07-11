@@ -49,14 +49,14 @@ const teams = [
   {
     id: "7",
     name: "Águias",
-    pathImg: "./logos/23adm08_aguias.jpeg",
+    pathImg: "./logos/23adm08_aguia.jpeg",
     points: 50,
     class: "23ADM08",
   },
   {
     id: "8",
     name: "Fox",
-    pathImg: "./logos/23adm08_fox.jpeg",
+    pathImg: "./logos/23adm08_fox.jpg",
     points: 50,
     class: "23ADM08",
   },
@@ -133,7 +133,7 @@ const teams = [
   {
     id: "19",
     name: "Dopaminerigicos",
-    pathImg: "./logos/23fma07_dopaminerigicos.jpeg",
+    pathImg: "./logos/23fma07_dopaminergicos.jpeg",
     points: 50,
     class: "23FMA07",
   },
@@ -175,9 +175,9 @@ const teams = [
   {
     id: "25",
     name: "Águias de Fogo",
-    pathImg: "./logos/23adm07_aguias_de_fogo.jpeg",
+    pathImg: "./logos/24adm07_aguias_de_fogo.jpeg",
     points: 50,
-    class: "23ADM07",
+    class: "24ADM07",
   },
   {
     id: "26",
@@ -213,6 +213,13 @@ const teams = [
     pathImg: "./logos/24fma06_pramil.jpeg",
     points: 50,
     class: "24FMA06",
+  },
+  {
+    id: "31",
+    name: "Só Vem Mermão",
+    pathImg: "./logos/24fma06_pramil.",
+    points: 0,
+    class: "23ADM14",
   },
 ];
 

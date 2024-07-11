@@ -27,20 +27,24 @@ const CardRanckStyled = styled.div`
         }
 
     }
-    .logo{
+    .logo {
         /* background-color: royalblue; */
         width: 30%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        img{
-            background-color:aquamarine;
-            height: 60%;
-            object-fit: cover;
-            border-radius: 50%;
-        }
+        overflow: hidden; /* para cortar a imagem que exceder a área do círculo */
     }
+
+    .logo img {
+
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%; /* para tornar a imagem redonda */
+    }
+
     
     .info{
         display: flex;
