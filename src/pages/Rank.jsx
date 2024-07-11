@@ -217,8 +217,8 @@ const teams = [
   {
     id: "31",
     name: "Só Vem Mermão",
-    pathImg: "./logos/24fma06_pramil.",
-    points: 0,
+    pathImg: "./logos/23adm14_so_vem_mermao.jpeg",
+    points: 50,
     class: "23ADM14",
   },
 ];
