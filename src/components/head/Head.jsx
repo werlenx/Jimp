@@ -9,7 +9,7 @@ export default function Head(){
                 <Link to="/"><img className="logo" src="logo-ifp.png" alt="" /></Link>
                 
                 <div className="title">
-                    <h1>JIMP</h1>
+                    <h1>JINP</h1>
                     <p>Jogos Internos IFP</p>
                 </div>
             </div>

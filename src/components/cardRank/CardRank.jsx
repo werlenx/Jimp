@@ -12,7 +12,7 @@ export default function (props) {
       <div className="info">
         <h2>{props.name}</h2>
         <p>{props.class}</p>
-        <p className="pontos">{props.point}</p>
+        <p className="pontos">{props.point} pts</p>
       </div>
     </CardRanckStyled>
   );
