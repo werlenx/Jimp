@@ -96,13 +96,6 @@ const teams = [
     class: "23ADM12",
   },
   {
-    id: "14",
-    name: "Raio de Fogo",
-    pathImg: "./logos/23adm13_raio_de_fogo.jpeg",
-    points: 50,
-    class: "23ADM13",
-  },
-  {
     id: "15",
     name: "Lions",
     pathImg: "./logos/23adm15_lions.jpeg",
