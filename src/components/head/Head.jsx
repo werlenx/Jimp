@@ -13,7 +13,7 @@ export default function Head(){
                     <p>Jogos Internos IFP</p>
                 </div>
             </div>
-            <img className="adm" src="config.png" alt="" />
+            <Link to="/login"><img className="adm" src="config.png" alt="" /></Link>
             
         </HeadStyled>
     )

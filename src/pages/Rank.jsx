@@ -50,14 +50,14 @@ const teams = [
     id: "7",
     name: "Águias",
     pathImg: "./logos/23adm08_aguia.jpeg",
-    points: 50,
+    points: 200,
     class: "24ADM08",
   },
   {
     id: "8",
     name: "Team Fox",
     pathImg: "./logos/23adm08_fox.jpg",
-    points: 50,
+    points: 100,
     class: "23ADM08",
   },
   {
@@ -78,7 +78,7 @@ const teams = [
     id: "11",
     name: "Lobos da Amazônia",
     pathImg: "./logos/23adm10_lobos_da_amazonia.jpeg",
-    points: 50,
+    points: 130,
     class: "23ADM10",
   },
   {
@@ -94,6 +94,13 @@ const teams = [
     pathImg: "./logos/23adm12_titas.jpeg",
     points: 50,
     class: "23ADM12",
+  },
+  {
+    id: "14",
+    name: "Aguias de fogo",
+    pathImg: "./logos/24adm07_aguias_de_fogo.jpeg",
+    points: 50,
+    class: "24ADM07",
   },
   {
     id: "15",

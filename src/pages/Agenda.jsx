@@ -17,7 +17,7 @@ export default function Agenda() {
         <CheckItem
           title="Desafio 2: grito de guerra"
           date="de 13 a 18 de Julho"
-          status={false}
+          status={true}
         />
         <CheckItem
           title="Desafio 3: Criar um produto sustentável"
