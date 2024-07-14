@@ -48,7 +48,7 @@ const teams = [
   },
   {
     id: "7",
-    name: "Águias",
+    name: "Águia",
     pathImg: "./logos/23adm08_aguia.jpeg",
     points: 200,
     class: "24ADM08",
@@ -97,7 +97,7 @@ const teams = [
   },
   {
     id: "14",
-    name: "Aguias de fogo",
+    name: "Águias de fogo",
     pathImg: "./logos/24adm07_aguias_de_fogo.jpeg",
     points: 50,
     class: "24ADM07",
@@ -113,7 +113,7 @@ const teams = [
     id: "16",
     name: "Destemidos",
     pathImg: "./logos/23adm16_destemidos.jpeg",
-    points: 50,
+    points: 100,
     class: "23ADM16",
   },
   {
