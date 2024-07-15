@@ -10,7 +10,7 @@ export default function Agenda() {
       <AgendaStyled>
         <h2>Cronograma do evento</h2>
         <CheckItem
-          title="Desafio 1: Criação do brasão da equipe"
+          title="Desafio 1: inscrição e Criação do brasão"
           date="de 06 a 11 de Julho"
           status={true}
         />
@@ -20,18 +20,18 @@ export default function Agenda() {
           status={true}
         />
         <CheckItem
-          title="Desafio 3: Criar um produto sustentável"
+          title="Desafio 3: Inscrição dos times"
           date="de 20 a 25 de Julho"
           status={false}
         />
         <CheckItem
-          title="Desafio 4: Criação do brasão da equipe"
+          title="Desafio 4: Produto sustentável"
           date="de 27 de Julho a 10 de Agosto"
           status={false}
         />
         <CheckItem
-          title="Apuração da pontuações"
-          date="de 12 a 15 de Agosto"
+          title="Apuração das pontuações"
+          date="de 12 a 16 de Agosto"
           status={false}
         />
         <CheckItem
