@@ -30,8 +30,13 @@ export default function Agenda() {
           status={false}
         />
         <CheckItem
-          title="Desafio 5: Entrega das latas de Leite Ninho"
-          date="de 10 a 15 de Agosto"
+          title="Apuração da pontuações"
+          date="de 12 a 15 de Agosto"
+          status={false}
+        />
+        <CheckItem
+          title="Times Campeões"
+          date="18 de agosto"
           status={false}
         />
       </AgendaStyled>
