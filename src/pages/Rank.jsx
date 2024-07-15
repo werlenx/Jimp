@@ -43,7 +43,7 @@ const teams = [
     id: "6",
     name: "Os Corujões",
     pathImg: "./logos/23adm07_os_corujoes.jpeg",
-    points: 50,
+    points: 150,
     class: "23ADM07",
   },
   {
@@ -197,7 +197,7 @@ const teams = [
     id: "28",
     name: "Farma SOS",
     pathImg: "./logos/24fma05_farma_sos.jpeg",
-    points: 50,
+    points: 250,
     class: "24FMA05",
   },
   {
