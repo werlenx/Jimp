@@ -9,6 +9,7 @@ const RankStyled = styled.div`
     display: flex;
     flex-direction: column;
     width: 100vw;
+    padding-bottom: 100px;
 `
 
 export {RankStyled}

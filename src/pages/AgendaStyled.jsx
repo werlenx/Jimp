@@ -11,7 +11,7 @@ const AgendaStyled = styled.div`
     flex-direction: column;
     padding: 0px 20px;
     box-sizing: border-box;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 
     
 `

@@ -8,7 +8,9 @@ const ButtonStyled = styled.div`
     gap: 20px;
     position: fixed;
     bottom: 25px;
+    
     button{
+        color: #f9f9f9;
         width: 35vw;
         background-color: rgba(71, 71, 71, 0.5);
         border-radius: 8px;
