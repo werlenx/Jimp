@@ -22,7 +22,7 @@ export default function Agenda() {
         <CheckItem
           title="Desafio 3: Inscrição dos times"
           date="de 20 a 25 de Julho"
-          status={false}
+          status={true}
         />
         <CheckItem
           title="Desafio 4: Produto sustentável"

@@ -1,6 +1,6 @@
 import { CardRanckStyled } from "./CardRankStyled";
 
-export default function (props) {
+export default function CardRank (props) {
   return (
     <CardRanckStyled>
       <div className="position">
