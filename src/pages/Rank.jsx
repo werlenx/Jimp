@@ -216,9 +216,9 @@ const teams = [
   },
   {
     id: "35",
-    name: "Equipe X",
+    name: "Os sem limites",
     pathImg: "./logos/x.png",
-    points: 100,
+    points: 300,
     class: "00ADM00",
   },
 ];
