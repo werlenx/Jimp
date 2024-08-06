@@ -1,7 +1,7 @@
 import { redirect } from "react-router-dom";
 import styled from "styled-components";
 
-const SearchStyled = styled.div`
+const MyEventStyled = styled.div`
     background-color: #04286D;
     width: 100vw;
     height: 100vh;
@@ -19,4 +19,4 @@ const SearchStyled = styled.div`
     }
 `
 
-export {SearchStyled}
+export {MyEventStyled}

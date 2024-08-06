@@ -42,7 +42,7 @@ export default function Login() {
           onChange={handlePasswordChange}
           placeholder="Digite sua senha"
         />
-        <Link to="/search"><button type="submit">Entrar</button></Link>
+        <Link to="/meus-eventos"><button type="submit">Entrar</button></Link>
       </div>
     </LoginStyled>
   );
